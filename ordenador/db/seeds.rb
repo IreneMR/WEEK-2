@@ -1,0 +1,5 @@
+Article.create( title: "HP", text: "")
+Article.create( title: "TOSHIBA", text: "")
+Article.create( title: "ACER", text: "")
+Article.create( title: "MAC", text: "")
+Article.create( title: "ASUS", text: "")
