@@ -1,5 +1,2 @@
-Article.create( title: "HP", text: "")
-Article.create( title: "TOSHIBA", text: "")
-Article.create( title: "ACER", text: "")
-Article.create( title: "MAC", text: "")
-Article.create( title: "ASUS", text: "")
+Article.create( title: "HP", modelo: "Pavilion V",procesador: "Intel I5", RAM: "8 GB", precio: "700") 
+Article.create( title: "ASUS", modelo: "Pavilio4343n V", procesador: "Int4343el I5", RAM: "8 34GB", precio: "7300") 

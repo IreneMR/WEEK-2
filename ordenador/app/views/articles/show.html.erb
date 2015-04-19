@@ -1,28 +1,20 @@
 ﻿<h3>
- 
-  <%= @article.title %>
+ <strong>marca:</strong>
+ <%= @article.title %>
 </h3>
-
 <p>
-  <strong>Ordenador:</strong>
-  <%= @article.text %>
-</p>
-<p>
-  <strong>Modelo:</strong>
-  <%= @article.text %>
-</p>
-<p>
-  <strong>Procesador:</strong>
-  <%= @article.text %>
-</p>
-<p>
-  <strong>RAM:</strong>
-  <%= @article.text %>
-</p>
-<p>
-  <strong>Precio:</strong>
-  <%= @article.text %>
-</p>
-
-<%= link_to 'Edit', edit_article_path(@article)%> |
-<%= link_to 'Back', articles_path %>
+ <strong>modelo:</strong>
+ <%= @article.modelo %>
+</p><p>
+ <strong>procesador:</strong>
+ <%= @article.procesador %>
+</p><p>
+ <strong>RAM:</strong>
+ <%= @article.RAM %>
+</p><p>
+ <strong>precio:</strong>
+ <%= @article.precio %>
+</p><p>
+   <%= link_to 'Edit', edit_article_path(@article)%> |
+   <%= link_to 'Back', articles_path%>
+</p> 
